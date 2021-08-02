@@ -1,2 +1,2 @@
 # gitconfig
-.gitconfig file to use across different working environments
+My .gitconfig files that I use across different working environments.
