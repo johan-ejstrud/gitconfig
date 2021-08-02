@@ -1,0 +1,21 @@
+[user]
+	name = Johan Ejstrud
+	email = johan@ejstrud.com
+[merge]
+	tool = kdiff3
+[alias]
+	st = status
+	ci = commit
+	br = branch
+	co = checkout
+	diffc = diff --color-words=.
+	diffw = diff --word-diff
+	logo = log --oneline
+	fixup = commit --amend --no-edit
+	alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
+[core]
+	autocrlf = input
+[credential]
+	helper = store
+[init]
+	defaultBranch = main
