@@ -1,6 +1,5 @@
-[user]
-	name = Johan Ejstrud
-	email = johan@ejstrud.com
+[include]
+	path = .gitconfig_local
 [merge]
 	tool = kdiff3
 [alias]
