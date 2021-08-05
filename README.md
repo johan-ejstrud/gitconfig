@@ -5,7 +5,7 @@ The `.gitconfig_local` file can be costumised for each working environment.
 
 # Installation
 1. Clone repository to computer, or install Dropbox where a copy is also kept in `Dropbox/repo/gitconfig/.gitconfig`.
-1. Find `.gitconfig` file on computer (usually `~/.gitconfig`, check with `git config --list --show-origin`).
+1. Find `.gitconfig` file on computer (usually `~/.gitconfig`, check with `git config --list --show-origin | cut -f1 | uniq`).
 1. In bash (Linux) run   
    ```
    rm ~/.gitconfig
